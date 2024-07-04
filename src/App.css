@@ -1,0 +1,75 @@
+.App1 {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.DP {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #555;
+  border-radius: 50%;
+  border-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+sec1 {
+  float: left;
+  width: 30%;
+  background: #000000;
+  padding: 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+sec2 {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+.ungt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-stretch: wider;
+}
+
+.mnt {
+  font-size: 18px;
+}
+
+.tpc {
+  font-size: 22px;
+}
+
+.hr {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
+.hrw {
+  width: 90%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
